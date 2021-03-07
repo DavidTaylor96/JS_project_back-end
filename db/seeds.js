@@ -6,7 +6,7 @@ db.dropDatabase();
 db.emissionFactors.insertMany([
     {
         transport: {
-            car: "0.19",
+            car: 0.19,
             bus: "0.16",
             train: "0.14",
             plane: "0.28",
