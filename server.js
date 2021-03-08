@@ -17,6 +17,16 @@ MongoClient.connect('mongodb://localhost:27017')
     const db = client.db('tryAtomic');
     const emissionFactorsCollection = db.collection('userData');
     const emissionRouter = createRouter(emissionFactorsCollection);
+    app.use('/api/userData', emissionRouter);
+  })
+  .catch(console.error);
+
+
+MongoClient.connect('mongodb://localhost:27017')
+  .then((client) => {
+    const db = client.db('tryAtomic');
+    const emissionFactorsCollection = db.collection('emissionFactors');
+    const emissionRouter = createRouter(emissionFactorsCollection);
     app.use('/api/emission', emissionRouter);
   })
   .catch(console.error);
