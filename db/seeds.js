@@ -40,7 +40,7 @@ db.userData.insertMany([
         }
     },
     {
-        food:{
+        diet:{
           lowMeat: 4.67,
         }
     },
