@@ -27,16 +27,21 @@ db.emissionFactors.insertMany([
 ])
 db.userData.insertMany([
     {
-        electricity: 50,
-        gas: 20, 
-        
+        energy:{
+            electricity: 50,
+            gas: 20, 
+        } 
     },
     {
-        car: 500,
-        bus: 100,
-        plane: 800,
+        transport:{
+            car: 500,
+            bus: 100,
+            plane: 800,
+        }
     },
     {
-        lowMeat: 4.67,
+        food:{
+          lowMeat: 4.67,
+        }
     },
 ])
