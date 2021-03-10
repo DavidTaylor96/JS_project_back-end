@@ -11,7 +11,7 @@ db.emissionFactors.insertMany([
             train: 0.14,
             plane: 0.28,
         },
-        food:{
+        diet:{
             highMeat: 7.19,
             mediumMeat: 5.63,
             lowMeat: 4.67,
