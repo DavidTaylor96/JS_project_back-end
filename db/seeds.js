@@ -71,6 +71,4 @@ db.userData.insertMany([
     quantity: 202
    },
 
-
-
 ])
