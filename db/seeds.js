@@ -25,50 +25,37 @@ db.emissionFactors.insertMany([
         }
     }
 ])
-// db.userData.insertMany([
-//     {
-//         energy:{
-//             electricity: 50,
-//             gas: 20, 
-//         } 
-//     },
-//     {
-//         transport:{
-//             car: 500,
-//             bus: 100,
-//             plane: 800,
-//         }
-//     },
-//     {
-//         diet:{
-//           lowMeat: 4.67,
-//         }
-//     }
-// ])
+
 db.userData.insertMany([
    {
        label: "car",
-       quantity: 500
+       quantity: 500,
+       unit: 'mile(s)'
    },
    {
        label: "gas",
-       quantity: 10
+       quantity: 10,
+       unit: 'kWh'
    },
    {
      label: "bus",
-     quantity: 20
+     quantity: 20,
+     unit: 'mile(s)'
    },
    {
     label: "electricity",
-    quantity: 4
+    quantity: 4,
+    unit: 'kWh'
    },
    {
     label: "plane",
-    quantity: 800
+    quantity: 800,
+    unit: 'mile(s)'
    },
    {
     label: "train",
-    quantity: 202
+    quantity: 202,
+    unit: 'mile(s)'
    },
 
 ])
