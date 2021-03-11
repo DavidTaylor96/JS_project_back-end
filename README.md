@@ -1,10 +1,8 @@
-# try-atomic_server
+#try-atomic_server
+
+
+npm install
 
 
 
-```npm install
-
-
-
-
-```npm run server:dev
+npm run server:dev
