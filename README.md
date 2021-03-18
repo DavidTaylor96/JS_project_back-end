@@ -6,10 +6,13 @@
 ```
 npm install
 ```
+
 <p>Seed the database with the server folder</p>
+
 ```
 npm run seeds
 ```
+
 <p>Run express (leave running in a terminal window). Within the server folder</>
  
 ```
