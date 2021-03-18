@@ -1,8 +1,8 @@
 <h1>server</h1>
 
 
-npm install
+```npm install
 
 
 
-npm run server:dev
+```npm run server:dev
